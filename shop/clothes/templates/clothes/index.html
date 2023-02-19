@@ -1,11 +1,12 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Index</title>
-</head>
-<body>
-<a href ="{% url 'all_clothes' %}">all_clothes</a>
+{% extends 'base.html' %}
+
+{% block title%}
+main
+{% endblock %}
+
+
+{% block content%}
+
 <h1>hello app clothes</h1>
 
-</body>
-</html>
+{% endblock %}
